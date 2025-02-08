@@ -62,7 +62,7 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="spacer"/>
+    {/* <div className="spacer"/> */}
   </div>
   );
 }
