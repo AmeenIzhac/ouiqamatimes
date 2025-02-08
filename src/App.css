@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 @media (min-width: 700px) {
@@ -22,7 +22,7 @@
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   overflow: hidden;
 }
 
