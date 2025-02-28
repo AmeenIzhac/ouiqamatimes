@@ -3,6 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import posthog from 'posthog-js'
+
+// Initialize PostHog
+posthog.init(process.env.REACT_APP_POSTHOG_KEY, {
+  api_host: 'https://app.posthog.com',  // Use your PostHog instance URL if self-hosted
+  loaded: (posthog) => {
+    if (process.env.NODE_ENV === 'development') posthog.debug()
+  }
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +20,11 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Send pageview events to PostHog when measuring performance
+reportWebVitals(({ name, value, id }) => {
+  posthog.capture('web_vitals', {
+    metric_name: name,
+    metric_value: value,
+    metric_id: id,
+  });
+});
