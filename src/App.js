@@ -13,14 +13,13 @@ function App() {
     }
     return `${String(hours).padStart(2, '0')}:${String(roundedMinutes).padStart(2, '0')}`;
   };
+  
+  const today = new Date();
+  const day = String(today.getDate()).padStart(2, '0');
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const key = `${day}${month}`;
 
   useEffect(() => {
-    const today = new Date();
-    const day = String(today.getDate()).padStart(2, '0');
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const key = `${day}${month}`;
-
-    console.log("yeye");
     if (prayerTimes[key]) {
       setTodayTimes({
         ...prayerTimes[key],
@@ -30,12 +29,13 @@ function App() {
         Isha: roundToNearest15(prayerTimes[key].Isha),
       });
     }
-  }, []);
+  }, [key]);
 
   if (!todayTimes) {
     return <p>Loading prayer times...</p>;
   }
 
+  if (prayerTimes[key]) {
   return (
   <div>
     <div className="container1">
@@ -65,6 +65,13 @@ function App() {
     {/* <div className="spacer"/> */}
   </div>
   );
+} else {
+  return (
+    <div>
+      <h1>No prayer times for today</h1>
+    </div>
+  );
+}
 }
 
 export default App;
