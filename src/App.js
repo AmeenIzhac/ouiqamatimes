@@ -32,7 +32,7 @@ function App() {
   }, [key]);
 
   if (!todayTimes) {
-    return <p>Loading prayer times...</p>;
+    return <p>Prayer room closed</p>;
   }
 
   if (prayerTimes[key]) {
