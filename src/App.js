@@ -32,7 +32,7 @@ function App() {
   }, [key]);
 
   if (!todayTimes) {
-    return <p>Prayer room closed until April 21st 2025</p>;
+    return <p>Prayer room closed, back open on April 21st 2025</p>;
   }
 
   if (prayerTimes[key]) {
