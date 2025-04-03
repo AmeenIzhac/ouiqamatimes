@@ -4,16 +4,6 @@ import './App.css';
 
 function App() {
   const [todayTimes, setTodayTimes] = useState(null);
-
-  const roundToNearest15 = (time) => {
-    const [hours, minutes] = time.split(':').map(Number);
-    const roundedMinutes = Math.ceil(minutes / 15) * 15;
-    if (roundedMinutes === 60) {
-      return `${String(hours + 1).padStart(2, '0')}:00`;
-    }
-    return `${String(hours).padStart(2, '0')}:${String(roundedMinutes).padStart(2, '0')}`;
-  };
-  
   const today = new Date();
   const day = String(today.getDate()).padStart(2, '0');
   const month = String(today.getMonth() + 1).padStart(2, '0');
@@ -23,16 +13,16 @@ function App() {
     if (prayerTimes[key]) {
       setTodayTimes({
         ...prayerTimes[key],
-        Fajr: roundToNearest15(prayerTimes[key].Fajr),
-        Dhuhr: roundToNearest15(prayerTimes[key].Dhuhr),
-        Asr: roundToNearest15(prayerTimes[key].Asr),
-        Isha: roundToNearest15(prayerTimes[key].Isha),
+        Fajr: prayerTimes[key].Fajr,
+        Dhuhr: prayerTimes[key].Dhuhr,
+        Asr: prayerTimes[key].Asr,
+        Isha: prayerTimes[key].Isha,
       });
     }
   }, [key]);
 
   if (!todayTimes) {
-    return <p>Prayer room closed, back open on April 21st 2025</p>;
+    return <p>loading... (or broken)</p>;
   }
 
   if (prayerTimes[key]) {
@@ -40,6 +30,7 @@ function App() {
   <div>
     <div className="container1">
       <div className="container2">
+        <h1>Pray in Robert Hook till (including) 20th April 2025</h1>
         <div className='time'>
           <h1 className="big">Fajr</h1>
           <h1 className="big">{todayTimes.Fajr}</h1>
@@ -62,7 +53,6 @@ function App() {
         </div>
       </div>
     </div>
-    {/* <div className="spacer"/> */}
   </div>
   );
 } else {
