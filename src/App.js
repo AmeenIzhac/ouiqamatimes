@@ -30,7 +30,6 @@ function App() {
   <div>
     <div className="container1">
       <div className="container2">
-        <h1>Pray in Robert Hook utill 20th April (inclusive)</h1>
         <div className='time'>
           <h1 className="big">Fajr</h1>
           <h1 className="big">{todayTimes.Fajr}</h1>
