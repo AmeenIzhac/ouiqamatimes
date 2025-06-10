@@ -22,4 +22,4 @@ def get_month_times(month):
             else:
                 writer.writerow([str(int(athan_times[1])), athan_times[2], athan_times[3], athan_times[4], athan_times[5], athan_times[6], athan_times[7], athan_times[8], athan_times[9], "", "", "", "", iqama_times[8], ""])
 
-get_month_times("jun")
+get_month_times("aug")
