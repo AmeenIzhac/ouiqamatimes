@@ -12,10 +12,10 @@ def ocis_mughrib_adjustment(maghrib_time):
 
 
 
-# round up to nearest 15 minutes
+# add 15 minutes then round up to nearest 15 minutes
 def fajr_adjustment(fajr_time):
     hours, minutes = map(int, fajr_time.split(':'))
-    total_minutes = hours * 60 + minutes
+    total_minutes = hours * 60 + minutes + 15
     rounded_minutes = ((total_minutes // 15) * 15) + 15
     return f"{rounded_minutes // 60:02d}:{rounded_minutes % 60:02d}"
 
@@ -43,11 +43,12 @@ def maghrib_adjustment(maghrib_time):
     total_minutes = hours * 60 + minutes
     return f"{total_minutes // 60:02d}:{total_minutes % 60:02d}"
 
-# add 10 minutes
+# add 3 minutes then round to the nearest 10 minutes
 def isha_adjustment(isha_time):
     hours, minutes = map(int, isha_time.split(':'))
-    total_minutes = hours * 60 + minutes + 10
-    return f"{total_minutes // 60:02d}:{total_minutes % 60:02d}"
+    total_minutes = hours * 60 + minutes + 3
+    rounded_minutes = ((total_minutes // 15) * 15) + 15
+    return f"{rounded_minutes // 60:02d}:{rounded_minutes % 60:02d}"
 
 
 
