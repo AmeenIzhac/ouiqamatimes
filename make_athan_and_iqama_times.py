@@ -86,9 +86,9 @@ for line in lines:
         fajr_time = fajr_adjustment(parts[3])
         dhuhr_time = dhuhr_adjustment(parts[5])
         asr_time = asr_adjustment(parts[7])
+        isha_time = isha_adjustment(parts[9])
 
     maghrib_time = maghrib_adjustment(parts[8])
-    isha_time = isha_adjustment(parts[9])
     
     parts[3] = fajr_time
     parts[5] = dhuhr_time

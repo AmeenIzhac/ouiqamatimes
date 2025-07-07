@@ -153,7 +153,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "14:45",
         "iqama-maghrib": "16:26",
-        "iqama-isha": "18:15"
+        "iqama-isha": "18:00"
     },
     "1601": {
         "athan-fajr": "06:25",
@@ -165,7 +165,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "14:45",
         "iqama-maghrib": "16:27",
-        "iqama-isha": "18:15"
+        "iqama-isha": "18:00"
     },
     "1701": {
         "athan-fajr": "06:24",
@@ -273,7 +273,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:43",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "2601": {
         "athan-fajr": "06:14",
@@ -285,7 +285,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:44",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "2701": {
         "athan-fajr": "06:13",
@@ -297,7 +297,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:46",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "2801": {
         "athan-fajr": "06:12",
@@ -309,7 +309,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:48",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "2901": {
         "athan-fajr": "06:10",
@@ -321,7 +321,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:50",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "3001": {
         "athan-fajr": "06:09",
@@ -333,7 +333,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:52",
-        "iqama-isha": "18:30"
+        "iqama-isha": "18:15"
     },
     "3101": {
         "athan-fajr": "06:07",
@@ -393,7 +393,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:15",
         "iqama-maghrib": "17:01",
-        "iqama-isha": "18:45"
+        "iqama-isha": "18:30"
     },
     "0502": {
         "athan-fajr": "06:00",
@@ -405,7 +405,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:15",
         "iqama-maghrib": "17:03",
-        "iqama-isha": "18:45"
+        "iqama-isha": "18:30"
     },
     "0602": {
         "athan-fajr": "05:58",
@@ -417,7 +417,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:15",
         "iqama-maghrib": "17:04",
-        "iqama-isha": "18:45"
+        "iqama-isha": "18:30"
     },
     "0702": {
         "athan-fajr": "05:57",
@@ -501,7 +501,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:30",
         "iqama-maghrib": "17:17",
-        "iqama-isha": "19:00"
+        "iqama-isha": "18:45"
     },
     "1402": {
         "athan-fajr": "05:44",
@@ -609,7 +609,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:34",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2302": {
         "athan-fajr": "05:27",
@@ -621,7 +621,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:36",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2402": {
         "athan-fajr": "05:25",
@@ -633,7 +633,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:37",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2502": {
         "athan-fajr": "05:23",
@@ -645,7 +645,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:39",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2602": {
         "athan-fajr": "05:21",
@@ -657,7 +657,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:41",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2702": {
         "athan-fajr": "05:19",
@@ -669,7 +669,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "15:45",
         "iqama-maghrib": "17:43",
-        "iqama-isha": "19:15"
+        "iqama-isha": "19:00"
     },
     "2802": {
         "athan-fajr": "05:17",
@@ -729,7 +729,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:00",
         "iqama-maghrib": "17:52",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:15"
     },
     "0503": {
         "athan-fajr": "05:06",
@@ -741,7 +741,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:00",
         "iqama-maghrib": "17:53",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:15"
     },
     "0603": {
         "athan-fajr": "05:04",
@@ -753,7 +753,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:00",
         "iqama-maghrib": "17:55",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:15"
     },
     "0703": {
         "athan-fajr": "05:02",
@@ -969,7 +969,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:26",
-        "iqama-isha": "20:00"
+        "iqama-isha": "19:45"
     },
     "2503": {
         "athan-fajr": "04:22",
@@ -981,7 +981,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:28",
-        "iqama-isha": "20:00"
+        "iqama-isha": "19:45"
     },
     "2603": {
         "athan-fajr": "04:19",
@@ -993,7 +993,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:30",
-        "iqama-isha": "20:00"
+        "iqama-isha": "19:45"
     },
     "2703": {
         "athan-fajr": "04:17",
@@ -1005,7 +1005,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:31",
-        "iqama-isha": "20:00"
+        "iqama-isha": "19:45"
     },
     "2803": {
         "athan-fajr": "04:14",
@@ -1041,7 +1041,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "19:37",
-        "iqama-isha": "21:00"
+        "iqama-isha": "20:00"
     },
     "3103": {
         "athan-fajr": "05:06",
@@ -1053,7 +1053,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "19:38",
-        "iqama-isha": "21:00"
+        "iqama-isha": "20:00"
     },
     "0104": {
         "athan-fajr": "05:04",
@@ -1065,7 +1065,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "19:40",
-        "iqama-isha": "21:00"
+        "iqama-isha": "20:00"
     },
     "0204": {
         "athan-fajr": "05:01",
@@ -1077,7 +1077,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "19:42",
-        "iqama-isha": "21:00"
+        "iqama-isha": "20:00"
     },
     "0304": {
         "athan-fajr": "04:59",
@@ -1089,7 +1089,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "19:43",
-        "iqama-isha": "21:00"
+        "iqama-isha": "20:00"
     },
     "0404": {
         "athan-fajr": "04:56",
@@ -1221,7 +1221,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:00",
         "iqama-maghrib": "20:02",
-        "iqama-isha": "21:30"
+        "iqama-isha": "21:15"
     },
     "1504": {
         "athan-fajr": "04:29",
@@ -1233,7 +1233,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:00",
         "iqama-maghrib": "20:04",
-        "iqama-isha": "21:30"
+        "iqama-isha": "21:15"
     },
     "1604": {
         "athan-fajr": "04:26",
@@ -1245,7 +1245,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:00",
         "iqama-maghrib": "20:05",
-        "iqama-isha": "21:30"
+        "iqama-isha": "21:15"
     },
     "1704": {
         "athan-fajr": "04:24",
@@ -1257,7 +1257,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:00",
         "iqama-maghrib": "20:07",
-        "iqama-isha": "21:30"
+        "iqama-isha": "21:15"
     },
     "1804": {
         "athan-fajr": "04:21",
@@ -1341,7 +1341,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:15",
         "iqama-maghrib": "20:19",
-        "iqama-isha": "21:45"
+        "iqama-isha": "21:30"
     },
     "2504": {
         "athan-fajr": "04:05",
@@ -1473,7 +1473,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:37",
-        "iqama-isha": "22:00"
+        "iqama-isha": "21:45"
     },
     "0605": {
         "athan-fajr": "03:41",
@@ -1485,7 +1485,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:39",
-        "iqama-isha": "22:00"
+        "iqama-isha": "21:45"
     },
     "0705": {
         "athan-fajr": "03:39",
@@ -1497,7 +1497,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:40",
-        "iqama-isha": "22:00"
+        "iqama-isha": "21:45"
     },
     "0805": {
         "athan-fajr": "03:37",
@@ -1509,7 +1509,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:42",
-        "iqama-isha": "22:00"
+        "iqama-isha": "21:45"
     },
     "0905": {
         "athan-fajr": "03:35",
@@ -1569,7 +1569,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:50",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:00"
     },
     "1405": {
         "athan-fajr": "03:25",
@@ -1581,7 +1581,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:51",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:00"
     },
     "1505": {
         "athan-fajr": "03:23",
@@ -1593,7 +1593,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:53",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:00"
     },
     "1605": {
         "athan-fajr": "03:22",
@@ -1677,7 +1677,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "21:03",
-        "iqama-isha": "22:30"
+        "iqama-isha": "22:15"
     },
     "2305": {
         "athan-fajr": "03:10",
@@ -1785,7 +1785,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:14",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0106": {
         "athan-fajr": "02:58",
@@ -1797,7 +1797,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:15",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0206": {
         "athan-fajr": "02:57",
@@ -1809,7 +1809,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:16",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0306": {
         "athan-fajr": "02:56",
@@ -1821,7 +1821,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:17",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0406": {
         "athan-fajr": "02:55",
@@ -1833,7 +1833,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:18",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0506": {
         "athan-fajr": "02:54",
@@ -1845,7 +1845,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:19",
-        "iqama-isha": "22:45"
+        "iqama-isha": "22:30"
     },
     "0606": {
         "athan-fajr": "02:53",
@@ -2217,7 +2217,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "19:00",
         "iqama-maghrib": "21:25",
-        "iqama-isha": "22:45"
+        "iqama-isha": "23:00"
     },
     "0707": {
         "athan-fajr": "03:00",
@@ -2229,7 +2229,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "19:00",
         "iqama-maghrib": "21:25",
-        "iqama-isha": "22:45"
+        "iqama-isha": "23:00"
     },
     "0807": {
         "athan-fajr": "03:02",
@@ -2241,7 +2241,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "19:00",
         "iqama-maghrib": "21:24",
-        "iqama-isha": "22:45"
+        "iqama-isha": "23:00"
     },
     "0907": {
         "athan-fajr": "03:03",
@@ -2253,7 +2253,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "19:00",
         "iqama-maghrib": "21:23",
-        "iqama-isha": "22:45"
+        "iqama-isha": "23:00"
     },
     "1007": {
         "athan-fajr": "03:04",
@@ -2265,7 +2265,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "19:00",
         "iqama-maghrib": "21:23",
-        "iqama-isha": "22:45"
+        "iqama-isha": "23:00"
     },
     "1107": {
         "athan-fajr": "03:06",
@@ -2481,7 +2481,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:01",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:30"
     },
     "2907": {
         "athan-fajr": "03:35",
@@ -2493,7 +2493,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "21:00",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:30"
     },
     "3007": {
         "athan-fajr": "03:37",
@@ -2505,7 +2505,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:58",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:30"
     },
     "3107": {
         "athan-fajr": "03:39",
@@ -2517,7 +2517,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:56",
-        "iqama-isha": "22:15"
+        "iqama-isha": "22:30"
     },
     "0108": {
         "athan-fajr": "03:40",
@@ -2565,7 +2565,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:50",
-        "iqama-isha": "22:00"
+        "iqama-isha": "22:15"
     },
     "0508": {
         "athan-fajr": "03:48",
@@ -2577,7 +2577,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:48",
-        "iqama-isha": "22:00"
+        "iqama-isha": "22:15"
     },
     "0608": {
         "athan-fajr": "03:50",
@@ -2589,7 +2589,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:46",
-        "iqama-isha": "22:00"
+        "iqama-isha": "22:15"
     },
     "0708": {
         "athan-fajr": "03:52",
@@ -2601,7 +2601,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:45",
         "iqama-maghrib": "20:44",
-        "iqama-isha": "22:00"
+        "iqama-isha": "22:15"
     },
     "0808": {
         "athan-fajr": "03:53",
@@ -2661,7 +2661,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:35",
-        "iqama-isha": "21:45"
+        "iqama-isha": "22:00"
     },
     "1308": {
         "athan-fajr": "04:03",
@@ -2673,7 +2673,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:33",
-        "iqama-isha": "21:45"
+        "iqama-isha": "22:00"
     },
     "1408": {
         "athan-fajr": "04:05",
@@ -2685,7 +2685,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:31",
-        "iqama-isha": "21:45"
+        "iqama-isha": "22:00"
     },
     "1508": {
         "athan-fajr": "04:07",
@@ -2769,7 +2769,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "18:30",
         "iqama-maghrib": "20:17",
-        "iqama-isha": "21:30"
+        "iqama-isha": "21:45"
     },
     "2208": {
         "athan-fajr": "04:20",
@@ -3213,7 +3213,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:52",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "2809": {
         "athan-fajr": "05:27",
@@ -3225,7 +3225,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:50",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "2909": {
         "athan-fajr": "05:29",
@@ -3237,7 +3237,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:48",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "3009": {
         "athan-fajr": "05:30",
@@ -3249,7 +3249,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:45",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "0110": {
         "athan-fajr": "05:32",
@@ -3261,7 +3261,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:43",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "0210": {
         "athan-fajr": "05:33",
@@ -3273,7 +3273,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:15",
         "iqama-maghrib": "18:41",
-        "iqama-isha": "20:15"
+        "iqama-isha": "20:30"
     },
     "0310": {
         "athan-fajr": "05:35",
@@ -3297,7 +3297,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:36",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "0510": {
         "athan-fajr": "05:38",
@@ -3309,7 +3309,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:34",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "0610": {
         "athan-fajr": "05:40",
@@ -3321,7 +3321,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:32",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "0710": {
         "athan-fajr": "05:41",
@@ -3333,7 +3333,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:30",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "0810": {
         "athan-fajr": "05:43",
@@ -3345,7 +3345,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:27",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "0910": {
         "athan-fajr": "05:44",
@@ -3357,7 +3357,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "17:00",
         "iqama-maghrib": "18:25",
-        "iqama-isha": "20:00"
+        "iqama-isha": "20:15"
     },
     "1010": {
         "athan-fajr": "05:46",
@@ -3381,7 +3381,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:21",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1210": {
         "athan-fajr": "05:49",
@@ -3393,7 +3393,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:18",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1310": {
         "athan-fajr": "05:51",
@@ -3405,7 +3405,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:16",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1410": {
         "athan-fajr": "05:53",
@@ -3417,7 +3417,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:14",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1510": {
         "athan-fajr": "05:54",
@@ -3429,7 +3429,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:12",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1610": {
         "athan-fajr": "05:56",
@@ -3441,7 +3441,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:45",
         "iqama-maghrib": "18:10",
-        "iqama-isha": "19:45"
+        "iqama-isha": "20:00"
     },
     "1710": {
         "athan-fajr": "05:57",
@@ -3477,7 +3477,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:03",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:45"
     },
     "2010": {
         "athan-fajr": "06:02",
@@ -3489,7 +3489,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "18:01",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:45"
     },
     "2110": {
         "athan-fajr": "06:04",
@@ -3501,7 +3501,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "17:59",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:45"
     },
     "2210": {
         "athan-fajr": "06:06",
@@ -3513,7 +3513,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "17:57",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:45"
     },
     "2310": {
         "athan-fajr": "06:07",
@@ -3525,7 +3525,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:30",
         "iqama-maghrib": "17:55",
-        "iqama-isha": "19:30"
+        "iqama-isha": "19:45"
     },
     "2410": {
         "athan-fajr": "06:09",
@@ -3561,7 +3561,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:15",
         "iqama-maghrib": "16:49",
-        "iqama-isha": "18:30"
+        "iqama-isha": "19:30"
     },
     "2710": {
         "athan-fajr": "05:14",
@@ -3573,7 +3573,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:15",
         "iqama-maghrib": "16:47",
-        "iqama-isha": "18:30"
+        "iqama-isha": "19:30"
     },
     "2810": {
         "athan-fajr": "05:16",
@@ -3585,7 +3585,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:15",
         "iqama-maghrib": "16:45",
-        "iqama-isha": "18:15"
+        "iqama-isha": "19:30"
     },
     "2910": {
         "athan-fajr": "05:17",
@@ -3597,7 +3597,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:15",
         "iqama-maghrib": "16:43",
-        "iqama-isha": "18:15"
+        "iqama-isha": "19:30"
     },
     "3010": {
         "athan-fajr": "05:19",
@@ -3609,7 +3609,7 @@
         "iqama-dhuhr": "13:30",
         "iqama-asr": "16:15",
         "iqama-maghrib": "16:42",
-        "iqama-isha": "18:15"
+        "iqama-isha": "19:30"
     },
     "3110": {
         "athan-fajr": "05:21",
@@ -3693,7 +3693,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "15:00",
         "iqama-maghrib": "16:29",
-        "iqama-isha": "18:00"
+        "iqama-isha": "18:15"
     },
     "0711": {
         "athan-fajr": "05:32",
@@ -3837,7 +3837,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "14:45",
         "iqama-maghrib": "16:11",
-        "iqama-isha": "17:45"
+        "iqama-isha": "18:00"
     },
     "1911": {
         "athan-fajr": "05:52",
@@ -3849,7 +3849,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "14:45",
         "iqama-maghrib": "16:10",
-        "iqama-isha": "17:45"
+        "iqama-isha": "18:00"
     },
     "2011": {
         "athan-fajr": "05:54",
@@ -3861,7 +3861,7 @@
         "iqama-dhuhr": "12:30",
         "iqama-asr": "14:45",
         "iqama-maghrib": "16:09",
-        "iqama-isha": "17:45"
+        "iqama-isha": "18:00"
     },
     "2111": {
         "athan-fajr": "05:55",
