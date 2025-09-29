@@ -3,7 +3,7 @@ import prayerTimes from './prayer_times.json';
 import './App.css';
 
 function App() {
-  return <p>times unavailable for july, please use the whats app chat</p>;
+  // return <p>times unavailable for july, please use the whats app chat</p>;
 
   const [todayTimes, setTodayTimes] = useState(null);
   const [activeTab, setActiveTab] = useState('iqama'); // 'iqama' or 'athan'
