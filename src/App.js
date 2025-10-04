@@ -31,28 +31,36 @@ function App() {
   }, [key]);
 
   const monthLabel = today.toLocaleString('default', { month: 'long' });
+  const currentYear = today.getFullYear();
 
   const monthTimes = Object.entries(prayerTimes)
     .filter(([timeKey]) => timeKey.slice(2) === month)
     .sort((a, b) => a[0].slice(0, 2).localeCompare(b[0].slice(0, 2)))
-    .map(([timeKey, times]) => ({
-      day: timeKey.slice(0, 2),
-      athanFajr: times['athan-fajr'] || '',
-      iqamaFajr: times['iqama-fajr'] || '',
-      athanDhuhr: times['athan-dhuhr'] || '',
-      iqamaDhuhr: times['iqama-dhuhr'] || '',
-      athanAsr: times['athan-asr'] || '',
-      iqamaAsr: times['iqama-asr'] || '',
-      athanMaghrib: times['athan-maghrib'] || '',
-      iqamaMaghrib: times['iqama-maghrib'] || '',
-      athanIsha: times['athan-isha'] || '',
-      iqamaIsha: times['iqama-isha'] || '',
-    }));
+    .map(([timeKey, times]) => {
+      const dayValue = timeKey.slice(0, 2);
+      const dayNumber = parseInt(dayValue, 10);
+      const targetDate = new Date(currentYear, parseInt(month, 10) - 1, dayNumber);
+      const isFriday = targetDate.getDay() === 5;
+
+      return {
+        day: dayValue,
+        athanFajr: times['athan-fajr'] || '',
+        iqamaFajr: times['iqama-fajr'] || '',
+        athanDhuhr: times['athan-dhuhr'] || '',
+        iqamaDhuhr: times['iqama-dhuhr'] || '',
+        athanAsr: times['athan-asr'] || '',
+        iqamaAsr: times['iqama-asr'] || '',
+        athanMaghrib: times['athan-maghrib'] || '',
+        iqamaMaghrib: times['iqama-maghrib'] || '',
+        athanIsha: times['athan-isha'] || '',
+        iqamaIsha: times['iqama-isha'] || '',
+        isFriday,
+      };
+    });
 
   if (!todayTimes) {
     return <p>loading... (or broken)</p>;
   }
-
   const renderTimes = () => {
     if (activeTab === 'month') {
       const handleDownloadPdf = async () => {
@@ -83,19 +91,31 @@ function App() {
           'Isha Iqama',
         ]];
 
-        const body = monthTimes.map((entry) => [
-          entry.day,
-          entry.athanFajr,
-          entry.athanDhuhr,
-          entry.athanAsr,
-          entry.athanMaghrib,
-          entry.athanIsha,
+        const body = monthTimes.map(({
+          day,
+          athanFajr,
+          athanDhuhr,
+          athanAsr,
+          athanMaghrib,
+          athanIsha,
+          iqamaFajr,
+          iqamaDhuhr,
+          iqamaAsr,
+          iqamaMaghrib,
+          iqamaIsha,
+        }) => [
+          day,
+          athanFajr,
+          athanDhuhr,
+          athanAsr,
+          athanMaghrib,
+          athanIsha,
           blankCell,
-          entry.iqamaFajr,
-          entry.iqamaDhuhr,
-          entry.iqamaAsr,
-          entry.iqamaMaghrib,
-          entry.iqamaIsha,
+          iqamaFajr,
+          iqamaDhuhr,
+          iqamaAsr,
+          iqamaMaghrib,
+          iqamaIsha,
         ]);
 
         autoTable(doc, {
@@ -103,20 +123,38 @@ function App() {
           body,
           startY: 20,
           styles: { fontSize: 10 },
-          headStyles: { fillColor: [0, 123, 255] },
+          headStyles: { fillColor: [255, 224, 102], textColor: [51, 51, 51] },
+          margin: { left: 12, right: 12 },
+          tableWidth: 'wrap',
           columnStyles: {
+            0: { cellWidth: 13 },
+            1: { cellWidth: 16 },
+            2: { cellWidth: 16 },
+            3: { cellWidth: 16 },
+            4: { cellWidth: 16 },
+            5: { cellWidth: 16 },
             6: {
-              cellWidth: 10,
+              cellWidth: 6,
               lineWidth: 0,
               fillColor: [255, 255, 255],
               textColor: [255, 255, 255],
             },
+            7: { cellWidth: 17 },
+            8: { cellWidth: 17 },
+            9: { cellWidth: 17 },
+            10: { cellWidth: 17 },
+            11: { cellWidth: 17 },
           },
           didParseCell: (data) => {
             if (data.column.index === 6) {
               data.cell.styles.fillColor = [255, 255, 255];
               data.cell.styles.lineWidth = 0;
               data.cell.styles.textColor = [255, 255, 255];
+              return;
+            }
+
+            if (data.row.index < monthTimes.length && monthTimes[data.row.index].isFriday) {
+              data.cell.styles.fillColor = [255, 224, 102];
             }
           },
         });
@@ -140,7 +178,7 @@ function App() {
             <table className="month-table">
               <thead>
                 <tr>
-                  <th rowSpan="2">Day</th>
+                  <th rowSpan="2" className="day-header">Day</th>
                   <th colSpan="5" className="athan-group">Athan</th>
                   <th rowSpan="2" className="section-gap" aria-hidden="true"></th>
                   <th colSpan="5" className="iqama-group">Iqama</th>
@@ -164,20 +202,33 @@ function App() {
                     <td colSpan="11">No data available for this month.</td>
                   </tr>
                 ) : (
-                  monthTimes.map((entry) => (
-                    <tr key={entry.day}>
-                      <td>{parseInt(entry.day, 10)}</td>
-                      <td className="athan-col">{entry.athanFajr}</td>
-                      <td className="athan-col">{entry.athanDhuhr}</td>
-                      <td className="athan-col">{entry.athanAsr}</td>
-                      <td className="athan-col">{entry.athanMaghrib}</td>
-                      <td className="athan-col athan-last">{entry.athanIsha}</td>
+                  monthTimes.map(({
+                    day,
+                    athanFajr,
+                    athanDhuhr,
+                    athanAsr,
+                    athanMaghrib,
+                    athanIsha,
+                    iqamaFajr,
+                    iqamaDhuhr,
+                    iqamaAsr,
+                    iqamaMaghrib,
+                    iqamaIsha,
+                    isFriday,
+                  }) => (
+                    <tr key={day} className={isFriday ? 'title-row' : undefined}>
+                      <td>{parseInt(day, 10)}</td>
+                      <td className="athan-col">{athanFajr}</td>
+                      <td className="athan-col">{athanDhuhr}</td>
+                      <td className="athan-col">{athanAsr}</td>
+                      <td className="athan-col">{athanMaghrib}</td>
+                      <td className="athan-col athan-last">{athanIsha}</td>
                       <td className="section-gap" aria-hidden="true"></td>
-                      <td className="iqama-col iqama-first">{entry.iqamaFajr}</td>
-                      <td className="iqama-col">{entry.iqamaDhuhr}</td>
-                      <td className="iqama-col">{entry.iqamaAsr}</td>
-                      <td className="iqama-col">{entry.iqamaMaghrib}</td>
-                      <td className="iqama-col">{entry.iqamaIsha}</td>
+                      <td className="iqama-col iqama-first">{iqamaFajr}</td>
+                      <td className="iqama-col">{iqamaDhuhr}</td>
+                      <td className="iqama-col">{iqamaAsr}</td>
+                      <td className="iqama-col">{iqamaMaghrib}</td>
+                      <td className="iqama-col">{iqamaIsha}</td>
                     </tr>
                   ))
                 )}
