@@ -157,6 +157,8 @@
 
 .table-wrapper {
   overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
 }
 
 .month-table {
@@ -176,6 +178,20 @@
 .month-table thead th {
   background-color: #f0f6ff;
   font-weight: 600;
+}
+
+.month-table thead tr:first-child th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #f0f6ff;
+}
+
+.month-table thead tr.sub-header th {
+  position: sticky;
+  top: 32px;
+  z-index: 2;
+  background-color: #f0f6ff;
 }
 
 .month-table tbody tr:nth-child(even) {
